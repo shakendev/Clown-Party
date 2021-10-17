@@ -7,12 +7,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 273007042, guid: 17208059c6f92e14ca2094a52b5f5089, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"color","value":{"r":0.0,"g":0.5799811,"b":1.0,"a":1.0,"$type":"UnityEngine.Color"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 114743740953362028, guid: 17208059c6f92e14ca2094a52b5f5089,
         type: 3}
       propertyPath: key
       value: 
-      objectReference: {fileID: 11400000, guid: b60a0d85da277c940bff997724afee27,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 522946357459924086, guid: 17208059c6f92e14ca2094a52b5f5089,
         type: 3}
       propertyPath: m_Mesh
@@ -21,7 +24,7 @@ PrefabInstance:
     - target: {fileID: 2462587269299277023, guid: 17208059c6f92e14ca2094a52b5f5089,
         type: 3}
       propertyPath: m_Name
-      value: KeyPrefabBlue
+      value: KeyBlue
       objectReference: {fileID: 0}
     - target: {fileID: 7191438148151588491, guid: 17208059c6f92e14ca2094a52b5f5089,
         type: 3}

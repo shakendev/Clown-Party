@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: EnemySounds
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"OnDamaged","$type":"System.String"}},"position":{"x":-276.0,"y":-88.0},"guid":"6841888c-8947-43d8-8ff7-f2c103634701","$version":"A","$type":"Bolt.CustomEvent","$id":"9"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{"audioClip":{"$content":1,"$type":"UnityEngine.Object"}},"position":{"x":155.0,"y":-80.0},"guid":"ad34a23a-53ee-4fe8-a4f0-cd3018ab56aa","$version":"A","$type":"Bolt.SuperUnit","$id":"11"},{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"OnDead","$type":"System.String"}},"position":{"x":-279.0,"y":133.0},"guid":"05253f15-86b2-46b7-87df-780edda14a82","$version":"A","$type":"Bolt.CustomEvent","$id":"14"},{"nest":{"source":"Macro","macro":2,"embed":null},"defaultValues":{"audioClip":{"$content":3,"$type":"UnityEngine.Object"}},"position":{"x":152.0,"y":141.0},"guid":"f46ead71-b116-4bda-a7ef-898f3dbfe00c","$version":"A","$type":"Bolt.SuperUnit","$id":"16"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"b9258243-4441-4a95-9f1a-065124acd0d9","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"trigger","destinationUnit":{"$ref":"16"},"destinationKey":"enter","guid":"7db64c9e-0341-415d-8a45-96db54fcbb4d","$type":"Bolt.ControlConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 988bbaed4ee0270499720cf694c27e70, type: 2}
+    - {fileID: 8300000, guid: dfa784f0c10f5a54492d1eccddb2d65d, type: 3}
+    - {fileID: 11400000, guid: 988bbaed4ee0270499720cf694c27e70, type: 2}
+    - {fileID: 8300000, guid: 397f8ef22d310004685a6c6c60ca9ea6, type: 3}
