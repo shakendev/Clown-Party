@@ -25,6 +25,7 @@
       "Inputs": [
         "/Users/d1mk4/Desktop/Clown-Party/Clown Party/Temp/StagingArea/Data/Managed",
         "/Users/d1mk4/Desktop/Clown-Party/Clown Party/Temp/StagingArea/Data/Managed/Antlr3.Runtime.dll",
+        "/Users/d1mk4/Desktop/Clown-Party/Clown Party/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll",
         "/Users/d1mk4/Desktop/Clown-Party/Clown Party/Temp/StagingArea/Data/Managed/Bolt.Core.Runtime.dll",
         "/Users/d1mk4/Desktop/Clown-Party/Clown Party/Temp/StagingArea/Data/Managed/Bolt.Flow.Runtime.dll",
         "/Users/d1mk4/Desktop/Clown-Party/Clown Party/Temp/StagingArea/Data/Managed/Bolt.State.Runtime.dll",

@@ -57,6 +57,7 @@
     <key>UISupportedInterfaceOrientations</key>
     <array>
       <string>UIInterfaceOrientationLandscapeRight</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
     </array>
     <key>Unity_LoadingActivityIndicatorStyle</key>
     <integer>-1</integer>

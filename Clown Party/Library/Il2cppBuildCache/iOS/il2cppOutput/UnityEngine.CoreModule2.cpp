@@ -23368,6 +23368,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_unscaledDeltaTime_m2C153F1E5C7
 	float icallRetVal = _il2cpp_icall_func();
 	return icallRetVal;
 }
+// System.Single UnityEngine.Time::get_fixedDeltaTime()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_fixedDeltaTime_m8E94ECFF6A6A1D9B5D60BF82D116D540852484E5 (const RuntimeMethod* method)
+{
+	typedef float (*Time_get_fixedDeltaTime_m8E94ECFF6A6A1D9B5D60BF82D116D540852484E5_ftn) ();
+	static Time_get_fixedDeltaTime_m8E94ECFF6A6A1D9B5D60BF82D116D540852484E5_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Time_get_fixedDeltaTime_m8E94ECFF6A6A1D9B5D60BF82D116D540852484E5_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Time::get_fixedDeltaTime()");
+	float icallRetVal = _il2cpp_icall_func();
+	return icallRetVal;
+}
 // System.Single UnityEngine.Time::get_smoothDeltaTime()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_smoothDeltaTime_mA6EAFF9940EC75075565444A61A03895489CA96A (const RuntimeMethod* method)
 {

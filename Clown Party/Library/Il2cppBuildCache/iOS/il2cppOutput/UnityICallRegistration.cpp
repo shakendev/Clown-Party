@@ -178,11 +178,23 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Application_get_isPlaying();
 		Register_UnityEngine_Application_get_isPlaying();
 
+		//System.Void UnityEngine.Application::Quit(System.Int32)
+		void Register_UnityEngine_Application_Quit();
+		Register_UnityEngine_Application_Quit();
+
 		//UnityEngine.RuntimePlatform UnityEngine.Application::get_platform()
 		void Register_UnityEngine_Application_get_platform();
 		Register_UnityEngine_Application_get_platform();
 
 	//End Registrations for type : UnityEngine.Application
+
+	//Start Registrations for type : UnityEngine.AsyncOperation
+
+		//System.Void UnityEngine.AsyncOperation::InternalDestroy(System.IntPtr)
+		void Register_UnityEngine_AsyncOperation_InternalDestroy();
+		Register_UnityEngine_AsyncOperation_InternalDestroy();
+
+	//End Registrations for type : UnityEngine.AsyncOperation
 
 	//Start Registrations for type : UnityEngine.AudioSettings
 
@@ -1057,6 +1069,10 @@ void RegisterAllStrippedInternalCalls()
 		//UnityEngine.GameObject UnityEngine.GameObject::CreatePrimitive(UnityEngine.PrimitiveType)
 		void Register_UnityEngine_GameObject_CreatePrimitive();
 		Register_UnityEngine_GameObject_CreatePrimitive();
+
+		//UnityEngine.GameObject UnityEngine.GameObject::Find(System.String)
+		void Register_UnityEngine_GameObject_Find();
+		Register_UnityEngine_GameObject_Find();
 
 		//UnityEngine.Transform UnityEngine.GameObject::get_transform()
 		void Register_UnityEngine_GameObject_get_transform();
@@ -3020,6 +3036,14 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.ResourcesAPIInternal
 
+	//Start Registrations for type : UnityEngine.Rigidbody
+
+		//System.Void UnityEngine.Rigidbody::AddForce_Injected(UnityEngine.Vector3&,UnityEngine.ForceMode)
+		void Register_UnityEngine_Rigidbody_AddForce_Injected();
+		Register_UnityEngine_Rigidbody_AddForce_Injected();
+
+	//End Registrations for type : UnityEngine.Rigidbody
+
 	//Start Registrations for type : UnityEngine.ScalableBufferManager
 
 		//System.Single UnityEngine.ScalableBufferManager::get_heightScaleFactor()
@@ -3079,6 +3103,14 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_SceneManagement_SceneManager_MoveGameObjectToScene_Injected();
 
 	//End Registrations for type : UnityEngine.SceneManagement.SceneManager
+
+	//Start Registrations for type : UnityEngine.SceneManagement.SceneManagerAPIInternal
+
+		//UnityEngine.AsyncOperation UnityEngine.SceneManagement.SceneManagerAPIInternal::LoadSceneAsyncNameIndexInternal_Injected(System.String,System.Int32,UnityEngine.SceneManagement.LoadSceneParameters&,System.Boolean)
+		void Register_UnityEngine_SceneManagement_SceneManagerAPIInternal_LoadSceneAsyncNameIndexInternal_Injected();
+		Register_UnityEngine_SceneManagement_SceneManagerAPIInternal_LoadSceneAsyncNameIndexInternal_Injected();
+
+	//End Registrations for type : UnityEngine.SceneManagement.SceneManagerAPIInternal
 
 	//Start Registrations for type : UnityEngine.Screen
 
@@ -3721,6 +3753,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Single UnityEngine.Time::get_deltaTime()
 		void Register_UnityEngine_Time_get_deltaTime();
 		Register_UnityEngine_Time_get_deltaTime();
+
+		//System.Single UnityEngine.Time::get_fixedDeltaTime()
+		void Register_UnityEngine_Time_get_fixedDeltaTime();
+		Register_UnityEngine_Time_get_fixedDeltaTime();
 
 		//System.Single UnityEngine.Time::get_realtimeSinceStartup()
 		void Register_UnityEngine_Time_get_realtimeSinceStartup();
