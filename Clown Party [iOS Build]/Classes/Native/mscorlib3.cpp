@@ -2367,17 +2367,38 @@ public:
 struct TimeZone_t7BDF23D00BD0964D237E34664984422C85EB43F5_StaticFields
 {
 public:
+	// System.TimeZone System.TimeZone::currentTimeZone
+	TimeZone_t7BDF23D00BD0964D237E34664984422C85EB43F5 * ___currentTimeZone_0;
 	// System.Object System.TimeZone::tz_lock
-	RuntimeObject * ___tz_lock_0;
+	RuntimeObject * ___tz_lock_1;
+	// System.Int64 System.TimeZone::timezone_check
+	int64_t ___timezone_check_2;
 
 public:
-	inline static int32_t get_offset_of_tz_lock_0() { return static_cast<int32_t>(offsetof(TimeZone_t7BDF23D00BD0964D237E34664984422C85EB43F5_StaticFields, ___tz_lock_0)); }
-	inline RuntimeObject * get_tz_lock_0() const { return ___tz_lock_0; }
-	inline RuntimeObject ** get_address_of_tz_lock_0() { return &___tz_lock_0; }
-	inline void set_tz_lock_0(RuntimeObject * value)
+	inline static int32_t get_offset_of_currentTimeZone_0() { return static_cast<int32_t>(offsetof(TimeZone_t7BDF23D00BD0964D237E34664984422C85EB43F5_StaticFields, ___currentTimeZone_0)); }
+	inline TimeZone_t7BDF23D00BD0964D237E34664984422C85EB43F5 * get_currentTimeZone_0() const { return ___currentTimeZone_0; }
+	inline TimeZone_t7BDF23D00BD0964D237E34664984422C85EB43F5 ** get_address_of_currentTimeZone_0() { return &___currentTimeZone_0; }
+	inline void set_currentTimeZone_0(TimeZone_t7BDF23D00BD0964D237E34664984422C85EB43F5 * value)
 	{
-		___tz_lock_0 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___tz_lock_0), (void*)value);
+		___currentTimeZone_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___currentTimeZone_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_tz_lock_1() { return static_cast<int32_t>(offsetof(TimeZone_t7BDF23D00BD0964D237E34664984422C85EB43F5_StaticFields, ___tz_lock_1)); }
+	inline RuntimeObject * get_tz_lock_1() const { return ___tz_lock_1; }
+	inline RuntimeObject ** get_address_of_tz_lock_1() { return &___tz_lock_1; }
+	inline void set_tz_lock_1(RuntimeObject * value)
+	{
+		___tz_lock_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___tz_lock_1), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_timezone_check_2() { return static_cast<int32_t>(offsetof(TimeZone_t7BDF23D00BD0964D237E34664984422C85EB43F5_StaticFields, ___timezone_check_2)); }
+	inline int64_t get_timezone_check_2() const { return ___timezone_check_2; }
+	inline int64_t* get_address_of_timezone_check_2() { return &___timezone_check_2; }
+	inline void set_timezone_check_2(int64_t value)
+	{
+		___timezone_check_2 = value;
 	}
 };
 
@@ -2531,16 +2552,16 @@ struct CurrentSystemTimeZone_t1D374DF5A6A47A1790B1BF8759342E40E0CD129A  : public
 {
 public:
 	// System.TimeZoneInfo System.CurrentSystemTimeZone::LocalTimeZone
-	TimeZoneInfo_t6988042963E068DC7DE283E2D0902C0B8A40C074 * ___LocalTimeZone_1;
+	TimeZoneInfo_t6988042963E068DC7DE283E2D0902C0B8A40C074 * ___LocalTimeZone_3;
 
 public:
-	inline static int32_t get_offset_of_LocalTimeZone_1() { return static_cast<int32_t>(offsetof(CurrentSystemTimeZone_t1D374DF5A6A47A1790B1BF8759342E40E0CD129A, ___LocalTimeZone_1)); }
-	inline TimeZoneInfo_t6988042963E068DC7DE283E2D0902C0B8A40C074 * get_LocalTimeZone_1() const { return ___LocalTimeZone_1; }
-	inline TimeZoneInfo_t6988042963E068DC7DE283E2D0902C0B8A40C074 ** get_address_of_LocalTimeZone_1() { return &___LocalTimeZone_1; }
-	inline void set_LocalTimeZone_1(TimeZoneInfo_t6988042963E068DC7DE283E2D0902C0B8A40C074 * value)
+	inline static int32_t get_offset_of_LocalTimeZone_3() { return static_cast<int32_t>(offsetof(CurrentSystemTimeZone_t1D374DF5A6A47A1790B1BF8759342E40E0CD129A, ___LocalTimeZone_3)); }
+	inline TimeZoneInfo_t6988042963E068DC7DE283E2D0902C0B8A40C074 * get_LocalTimeZone_3() const { return ___LocalTimeZone_3; }
+	inline TimeZoneInfo_t6988042963E068DC7DE283E2D0902C0B8A40C074 ** get_address_of_LocalTimeZone_3() { return &___LocalTimeZone_3; }
+	inline void set_LocalTimeZone_3(TimeZoneInfo_t6988042963E068DC7DE283E2D0902C0B8A40C074 * value)
 	{
-		___LocalTimeZone_1 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___LocalTimeZone_1), (void*)value);
+		___LocalTimeZone_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___LocalTimeZone_3), (void*)value);
 	}
 };
 
@@ -9663,6 +9684,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m89EAB4C6A96B0E5C3F87
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeZone__ctor_m325FB2DDABD0CD6599F0D840B2F5AC7C4D2171CB (TimeZone_t7BDF23D00BD0964D237E34664984422C85EB43F5 * __this, const RuntimeMethod* method);
 // System.TimeZoneInfo System.TimeZoneInfo::get_Local()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TimeZoneInfo_t6988042963E068DC7DE283E2D0902C0B8A40C074 * TimeZoneInfo_get_Local_m2C2645D8BAB720A34942820DD3DC1A541BEC51C9 (const RuntimeMethod* method);
+// System.String System.TimeZoneInfo::get_StandardName()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* TimeZoneInfo_get_StandardName_mCB8F40B8D9CE969233DDFD142BBBDF36EF3EE60C_inline (TimeZoneInfo_t6988042963E068DC7DE283E2D0902C0B8A40C074 * __this, const RuntimeMethod* method);
 // System.Void System.Object::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405 (RuntimeObject * __this, const RuntimeMethod* method);
 // System.Void System.Reflection.CustomAttributeData/LazyCAttrData::.ctor()
@@ -10415,6 +10438,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int16_t DateTimeOffset_ValidateOffset_m78CEB7
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  DateTimeOffset_ValidateDate_m28A342E59E501C0AB1E128D9D7AB52F9216A3FED (DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  ___dateTime0, TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  ___offset1, const RuntimeMethod* method);
 // System.Void System.DateTimeOffset::.ctor(System.Int64,System.TimeSpan)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DateTimeOffset__ctor_m9AD2F792164BCC5D9DE62F7FCB735E31D1AFBA8F (DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5 * __this, int64_t ___ticks0, TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  ___offset1, const RuntimeMethod* method);
+// System.Void System.DateTimeOffset::.ctor(System.DateTime)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DateTimeOffset__ctor_mC17E28F89D4E54D511B30E08D1F56453E677D53F (DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5 * __this, DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  ___dateTime0, const RuntimeMethod* method);
 // System.DateTime System.DateTimeOffset::get_UtcDateTime()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  DateTimeOffset_get_UtcDateTime_m262924656B3DD43C1E51E4C5B2BEB8EC8AAB6833 (DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5 * __this, const RuntimeMethod* method);
 // System.TimeSpan System.DateTimeOffset::get_Offset()
@@ -10457,6 +10482,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DateTimeOffset_ToString_m1BC10772D0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DateTimeOffset_ToString_m0F27E1C939EDD772DF5A09D3C8CD7F0D5922A9F8 (DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5 * __this, String_t* ___format0, const RuntimeMethod* method);
 // System.String System.DateTimeOffset::ToString(System.String,System.IFormatProvider)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DateTimeOffset_ToString_m6F59F045A0B1063335C1BC88DBD80C1868B9E6AF (DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5 * __this, String_t* ___format0, RuntimeObject* ___formatProvider1, const RuntimeMethod* method);
+// System.DateTimeOffset System.DateTimeOffset::ToUniversalTime()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5  DateTimeOffset_ToUniversalTime_mF1D7DE4B578E2B2AF8FC2C4D2162407A469D9FE6 (DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5 * __this, const RuntimeMethod* method);
 // System.Globalization.DateTimeStyles System.DateTimeOffset::ValidateStyles(System.Globalization.DateTimeStyles,System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DateTimeOffset_ValidateStyles_m206EDD60805A591DEAFD79B3B472DFFBE2C3FA76 (int32_t ___style0, String_t* ___parameterName1, const RuntimeMethod* method);
 // System.Boolean System.DateTimeParse::TryParse(System.String,System.Globalization.DateTimeFormatInfo,System.Globalization.DateTimeStyles,System.DateTime&,System.TimeSpan&)
@@ -10915,8 +10942,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CurrentSystemTimeZone__ctor_mBC7AFE6C701
 		TimeZone__ctor_m325FB2DDABD0CD6599F0D840B2F5AC7C4D2171CB(__this, /*hidden argument*/NULL);
 		TimeZoneInfo_t6988042963E068DC7DE283E2D0902C0B8A40C074 * L_0;
 		L_0 = TimeZoneInfo_get_Local_m2C2645D8BAB720A34942820DD3DC1A541BEC51C9(/*hidden argument*/NULL);
-		__this->set_LocalTimeZone_1(L_0);
+		__this->set_LocalTimeZone_3(L_0);
 		return;
+	}
+}
+// System.String System.CurrentSystemTimeZone::get_StandardName()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CurrentSystemTimeZone_get_StandardName_m7F280562802B69EC1888060A52D8B022C26034C9 (CurrentSystemTimeZone_t1D374DF5A6A47A1790B1BF8759342E40E0CD129A * __this, const RuntimeMethod* method)
+{
+	{
+		TimeZoneInfo_t6988042963E068DC7DE283E2D0902C0B8A40C074 * L_0 = __this->get_LocalTimeZone_3();
+		NullCheck(L_0);
+		String_t* L_1;
+		L_1 = TimeZoneInfo_get_StandardName_mCB8F40B8D9CE969233DDFD142BBBDF36EF3EE60C_inline(L_0, /*hidden argument*/NULL);
+		return L_1;
 	}
 }
 // System.Boolean System.CurrentSystemTimeZone::GetTimeZoneData(System.Int32,System.Int64[]&,System.String[]&,System.Boolean&)
@@ -12118,7 +12156,7 @@ IL_0014:
 		L_8 = Object_GetType_m571FE8360C10B98C23AAF1F066D92C08CC94F45B(L_7, /*hidden argument*/NULL);
 		NullCheck(L_8);
 		Type_t * L_9;
-		L_9 = VirtFuncInvoker0< Type_t * >::Invoke(98 /* System.Type System.Type::GetElementType() */, L_8);
+		L_9 = VirtFuncInvoker0< Type_t * >::Invoke(99 /* System.Type System.Type::GetElementType() */, L_8);
 		V_1 = L_9;
 		RuntimeArray * L_10 = V_0;
 		NullCheck(L_10);
@@ -12265,7 +12303,7 @@ IL_006b:
 		Type_t * L_16 = __this->get_argumentType_0();
 		NullCheck(L_16);
 		bool L_17;
-		L_17 = VirtFuncInvoker0< bool >::Invoke(69 /* System.Boolean System.Type::get_IsEnum() */, L_16);
+		L_17 = VirtFuncInvoker0< bool >::Invoke(70 /* System.Boolean System.Type::get_IsEnum() */, L_16);
 		if (!L_17)
 		{
 			goto IL_0094;
@@ -27224,6 +27262,59 @@ IL2CPP_EXTERN_C  void DateTimeOffset__ctor_m9AD2F792164BCC5D9DE62F7FCB735E31D1AF
 	DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5 * _thisAdjusted = reinterpret_cast<DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5 *>(__this + _offset);
 	DateTimeOffset__ctor_m9AD2F792164BCC5D9DE62F7FCB735E31D1AFBA8F(_thisAdjusted, ___ticks0, ___offset1, method);
 }
+// System.Void System.DateTimeOffset::.ctor(System.DateTime)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DateTimeOffset__ctor_mC17E28F89D4E54D511B30E08D1F56453E677D53F (DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5 * __this, DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  ___dateTime0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		int32_t L_0;
+		L_0 = DateTime_get_Kind_mC7EC1A788CC9A875094117214C5A0C153A39F496((DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 *)(&___dateTime0), /*hidden argument*/NULL);
+		if ((((int32_t)L_0) == ((int32_t)1)))
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_1 = ___dateTime0;
+		TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  L_2;
+		L_2 = TimeZoneInfo_GetLocalUtcOffset_m0BB02611FD7B4B1E2E92D2FF2CA32FE9536E6C77(L_1, 2, /*hidden argument*/NULL);
+		V_0 = L_2;
+		goto IL_001d;
+	}
+
+IL_0014:
+	{
+		TimeSpan__ctor_mC80FA729ECA3A7AF31D9F517A95E60FC23EB86B0_inline((TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203 *)(&V_0), ((int64_t)((int64_t)0)), /*hidden argument*/NULL);
+	}
+
+IL_001d:
+	{
+		TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  L_3 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5_il2cpp_TypeInfo_var);
+		int16_t L_4;
+		L_4 = DateTimeOffset_ValidateOffset_m78CEB7DF319EF0113C3F6D070716C181C803BD07(L_3, /*hidden argument*/NULL);
+		__this->set_m_offsetMinutes_3(L_4);
+		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_5 = ___dateTime0;
+		TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  L_6 = V_0;
+		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_7;
+		L_7 = DateTimeOffset_ValidateDate_m28A342E59E501C0AB1E128D9D7AB52F9216A3FED(L_5, L_6, /*hidden argument*/NULL);
+		__this->set_m_dateTime_2(L_7);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void DateTimeOffset__ctor_mC17E28F89D4E54D511B30E08D1F56453E677D53F_AdjustorThunk (RuntimeObject * __this, DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  ___dateTime0, const RuntimeMethod* method)
+{
+	int32_t _offset = 1;
+	DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5 * _thisAdjusted = reinterpret_cast<DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5 *>(__this + _offset);
+	DateTimeOffset__ctor_mC17E28F89D4E54D511B30E08D1F56453E677D53F(_thisAdjusted, ___dateTime0, method);
+}
 // System.DateTime System.DateTimeOffset::get_UtcDateTime()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  DateTimeOffset_get_UtcDateTime_m262924656B3DD43C1E51E4C5B2BEB8EC8AAB6833 (DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5 * __this, const RuntimeMethod* method)
 {
@@ -27812,6 +27903,26 @@ IL2CPP_EXTERN_C  String_t* DateTimeOffset_ToString_m6F59F045A0B1063335C1BC88DBD8
 	DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5 * _thisAdjusted = reinterpret_cast<DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5 *>(__this + _offset);
 	String_t* _returnValue;
 	_returnValue = DateTimeOffset_ToString_m6F59F045A0B1063335C1BC88DBD80C1868B9E6AF(_thisAdjusted, ___format0, ___formatProvider1, method);
+	return _returnValue;
+}
+// System.DateTimeOffset System.DateTimeOffset::ToUniversalTime()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5  DateTimeOffset_ToUniversalTime_mF1D7DE4B578E2B2AF8FC2C4D2162407A469D9FE6 (DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5 * __this, const RuntimeMethod* method)
+{
+	{
+		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_0;
+		L_0 = DateTimeOffset_get_UtcDateTime_m262924656B3DD43C1E51E4C5B2BEB8EC8AAB6833((DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5 *)__this, /*hidden argument*/NULL);
+		DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5  L_1;
+		memset((&L_1), 0, sizeof(L_1));
+		DateTimeOffset__ctor_mC17E28F89D4E54D511B30E08D1F56453E677D53F((&L_1), L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C  DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5  DateTimeOffset_ToUniversalTime_mF1D7DE4B578E2B2AF8FC2C4D2162407A469D9FE6_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	int32_t _offset = 1;
+	DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5 * _thisAdjusted = reinterpret_cast<DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5 *>(__this + _offset);
+	DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5  _returnValue;
+	_returnValue = DateTimeOffset_ToUniversalTime_mF1D7DE4B578E2B2AF8FC2C4D2162407A469D9FE6(_thisAdjusted, method);
 	return _returnValue;
 }
 // System.Boolean System.DateTimeOffset::TryParse(System.String,System.IFormatProvider,System.Globalization.DateTimeStyles,System.DateTimeOffset&)
@@ -37495,6 +37606,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DateTimeParse__cctor_m6A22F53BBDC98EAB53
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* TimeZoneInfo_get_StandardName_mCB8F40B8D9CE969233DDFD142BBBDF36EF3EE60C_inline (TimeZoneInfo_t6988042963E068DC7DE283E2D0902C0B8A40C074 * __this, const RuntimeMethod* method)
+{
+	{
+		String_t* L_0 = __this->get_standardDisplayName_7();
+		return L_0;
+	}
+}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DateTime__ctor_mCDC5FC3D835DB051237870D2D334B9A1A54233F0_inline (DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 * __this, uint64_t ___dateData0, const RuntimeMethod* method)
 {
 	{

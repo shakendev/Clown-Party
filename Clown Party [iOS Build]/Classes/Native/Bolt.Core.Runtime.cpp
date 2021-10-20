@@ -11694,7 +11694,7 @@ IL_000d:
 		VariableDeclaration_tA0C1797F15255CD4322B22286B1AA0B7F1C00AE8 ** L_4 = ___value1;
 		NullCheck(L_2);
 		bool L_5;
-		L_5 = InterfaceFuncInvoker2< bool, String_t*, VariableDeclaration_tA0C1797F15255CD4322B22286B1AA0B7F1C00AE8 ** >::Invoke(3 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,Bolt.VariableDeclaration>::TryGetValue(!0,!1&) */, IDictionary_2_t87DAC5486C53E5934F0E5C2A1A2362F88AB64815_il2cpp_TypeInfo_var, L_2, L_3, (VariableDeclaration_tA0C1797F15255CD4322B22286B1AA0B7F1C00AE8 **)L_4);
+		L_5 = InterfaceFuncInvoker2< bool, String_t*, VariableDeclaration_tA0C1797F15255CD4322B22286B1AA0B7F1C00AE8 ** >::Invoke(7 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,Bolt.VariableDeclaration>::TryGetValue(!0,!1&) */, IDictionary_2_t87DAC5486C53E5934F0E5C2A1A2362F88AB64815_il2cpp_TypeInfo_var, L_2, L_3, (VariableDeclaration_tA0C1797F15255CD4322B22286B1AA0B7F1C00AE8 **)L_4);
 		return L_5;
 	}
 }
@@ -13180,7 +13180,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3Cget_listenerTypesU3Eb__2_0_m5
 		Type_t * L_2 = ___t0;
 		NullCheck(L_1);
 		bool L_3;
-		L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(110 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_1, L_2);
+		L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(111 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_1, L_2);
 		if (!L_3)
 		{
 			goto IL_0019;

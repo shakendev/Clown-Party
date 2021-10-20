@@ -39,6 +39,7 @@
 		<type fullname="UnityEngine.RectTransform" preserve="nothing"/>
 		<type fullname="UnityEngine.CanvasRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.Light" preserve="nothing"/>
+		<type fullname="UnityEngine.Cubemap" preserve="nothing"/>
 		<type fullname="UnityEngine.LightmapSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.TrailRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.Rigidbody" preserve="nothing"/>
@@ -61,9 +62,11 @@
 		<type fullname="UnityEngine.AI.NavMeshAgent" preserve="nothing"/>
 		<type fullname="UnityEngine.AI.NavMeshData" preserve="nothing"/>
 		<type fullname="UnityEngine.Motion" preserve="nothing"/>
-		<type fullname="UnityEngine.Cubemap" preserve="nothing"/>
 		<type fullname="UnityEngine.LightingSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.LightProbes" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="Assembly-CSharp-firstpass">
+		<type fullname="BugsnagUnity.BugsnagBehaviour" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="FloatingJoystick" preserve="nothing"/>

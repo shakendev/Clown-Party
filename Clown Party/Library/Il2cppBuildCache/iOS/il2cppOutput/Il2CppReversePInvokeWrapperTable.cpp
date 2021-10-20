@@ -99,11 +99,21 @@ public:
 #pragma clang diagnostic pop
 #endif
 
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_Breadcrumbs_PopulateBreadcrumb_m2DAEE04399B5795AA8A244BDFFDAE4F0D3148ED3(intptr_t ___instance0, char* ___name1, char* ___timestamp2, char* ___type3, char** ___keys4, int32_t ___keysSize5, char** ___values6, int32_t ___valuesSize7);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_NativeClient_PopulateAppData_m3214B92897F50DCBB4560C363F9A40B6C487443D(intptr_t ___instance0, char* ___key1, char* ___value2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_NativeClient_PopulateDeviceData_m576842721B552FD27EA3DBA54DED723175733CCE(intptr_t ___instance0, char* ___key1, char* ___value2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_NativeClient_PopulateMetaDataData_m2A550CB4AB068C95AC6B0DCFC1CD4AC56DC4FAAF(intptr_t ___instance0, char* ___tab1, char** ___keys2, int32_t ___keysSize3, char** ___values4, int32_t ___valuesSize5);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_NativeClient_PopulateSession_m2A9E289730AAD2DD00F4ABE4E65672E7EACB0C33(intptr_t ___instance0, char* ___sessionId1, char* ___startedAt2, int32_t ___handled3, int32_t ___unhandled4);
 extern "C" void DEFAULT_CALL ReversePInvokeWrapper_OSSpecificSynchronizationContext_InvocationEntry_m0045E44F7E960D6B4A864D5206D4116249C09BB0(intptr_t ___arg0);
 
 
 IL2CPP_EXTERN_C const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[];
-const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[1] = 
+const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[6] = 
 {
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Breadcrumbs_PopulateBreadcrumb_m2DAEE04399B5795AA8A244BDFFDAE4F0D3148ED3),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_NativeClient_PopulateAppData_m3214B92897F50DCBB4560C363F9A40B6C487443D),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_NativeClient_PopulateDeviceData_m576842721B552FD27EA3DBA54DED723175733CCE),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_NativeClient_PopulateMetaDataData_m2A550CB4AB068C95AC6B0DCFC1CD4AC56DC4FAAF),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_NativeClient_PopulateSession_m2A9E289730AAD2DD00F4ABE4E65672E7EACB0C33),
 	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_OSSpecificSynchronizationContext_InvocationEntry_m0045E44F7E960D6B4A864D5206D4116249C09BB0),
 };

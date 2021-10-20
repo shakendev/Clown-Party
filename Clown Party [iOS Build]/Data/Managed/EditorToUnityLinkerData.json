@@ -491,6 +491,16 @@
             ]
         },
         {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Cubemap",
+            "fullManagedTypeName": "UnityEngine.Cubemap",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/_/Scenes/MainMenuScene.unity",
+                "Assets/Scenes/GameScene.unity"
+            ]
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "LevelGameManager",
             "fullManagedTypeName": "",
@@ -703,16 +713,6 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Cubemap",
-            "fullManagedTypeName": "UnityEngine.Cubemap",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/GameScene.unity",
-                "Assets/_/Scenes/GameWinScene.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "LightingSettings",
             "fullManagedTypeName": "UnityEngine.LightingSettings",
             "moduleName": "Core",
@@ -728,6 +728,13 @@
             "usedInScenes": [
                 "Assets/Scenes/GameScene.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "BugsnagUnity.BugsnagBehaviour",
+            "moduleName": "",
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
