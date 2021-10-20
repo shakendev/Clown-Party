@@ -1,5 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp-firstpass.dll:
+    - BugsnagUnity.BugsnagBehaviour
     Assembly-CSharp.dll:
     - FloatingJoystick
     - GameSceneButtonsHandler
@@ -71,6 +73,8 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
+    Unity.Timeline.Editor.dll:
+    - TimelineProjectSettings
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -140,59 +144,59 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1766}
+      Script: {instanceID: 1798}
     - Class: 114
-      Script: {instanceID: 1776}
+      Script: {instanceID: 1808}
     - Class: 114
-      Script: {instanceID: 1982}
+      Script: {instanceID: 2022}
     - Class: 114
-      Script: {instanceID: 2014}
+      Script: {instanceID: 2054}
     - Class: 114
-      Script: {instanceID: 2734}
+      Script: {instanceID: 2782}
     - Class: 114
-      Script: {instanceID: 3214}
+      Script: {instanceID: 3262}
     - Class: 114
-      Script: {instanceID: 3282}
+      Script: {instanceID: 3270}
     - Class: 114
-      Script: {instanceID: 3386}
+      Script: {instanceID: 3338}
     - Class: 114
-      Script: {instanceID: 3388}
+      Script: {instanceID: 3442}
     - Class: 114
-      Script: {instanceID: 3714}
+      Script: {instanceID: 3444}
     - Class: 114
-      Script: {instanceID: 4148}
+      Script: {instanceID: 3776}
     - Class: 114
-      Script: {instanceID: 4516}
+      Script: {instanceID: 4210}
     - Class: 114
-      Script: {instanceID: 4724}
-    - Class: 114
-      Script: {instanceID: 4788}
+      Script: {instanceID: 4584}
     - Class: 114
       Script: {instanceID: 4792}
     - Class: 114
-      Script: {instanceID: 4872}
+      Script: {instanceID: 4856}
     - Class: 114
-      Script: {instanceID: 4978}
+      Script: {instanceID: 4860}
     - Class: 114
-      Script: {instanceID: 5104}
+      Script: {instanceID: 4944}
     - Class: 114
-      Script: {instanceID: 5668}
+      Script: {instanceID: 5050}
     - Class: 114
-      Script: {instanceID: 5794}
+      Script: {instanceID: 5182}
     - Class: 114
-      Script: {instanceID: 6106}
+      Script: {instanceID: 5750}
     - Class: 114
-      Script: {instanceID: 6444}
+      Script: {instanceID: 5876}
     - Class: 114
-      Script: {instanceID: 6600}
+      Script: {instanceID: 6196}
     - Class: 114
-      Script: {instanceID: 6602}
+      Script: {instanceID: 6534}
     - Class: 114
-      Script: {instanceID: 7520}
+      Script: {instanceID: 6692}
     - Class: 114
-      Script: {instanceID: 108744}
+      Script: {instanceID: 6694}
     - Class: 114
-      Script: {instanceID: 266630}
+      Script: {instanceID: 6882}
+    - Class: 114
+      Script: {instanceID: 7632}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -248,40 +252,38 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1766}
+      Script: {instanceID: 1798}
     - Class: 114
-      Script: {instanceID: 1776}
+      Script: {instanceID: 1808}
     - Class: 114
-      Script: {instanceID: 1982}
+      Script: {instanceID: 2022}
     - Class: 114
-      Script: {instanceID: 2734}
+      Script: {instanceID: 2782}
     - Class: 114
-      Script: {instanceID: 3214}
+      Script: {instanceID: 3270}
     - Class: 114
-      Script: {instanceID: 3386}
+      Script: {instanceID: 3442}
     - Class: 114
-      Script: {instanceID: 3388}
+      Script: {instanceID: 3444}
     - Class: 114
-      Script: {instanceID: 4788}
+      Script: {instanceID: 4856}
     - Class: 114
-      Script: {instanceID: 4792}
+      Script: {instanceID: 4860}
     - Class: 114
-      Script: {instanceID: 5104}
+      Script: {instanceID: 5182}
     - Class: 114
-      Script: {instanceID: 5668}
+      Script: {instanceID: 5750}
     - Class: 114
-      Script: {instanceID: 5794}
+      Script: {instanceID: 5876}
     - Class: 114
-      Script: {instanceID: 6106}
+      Script: {instanceID: 6196}
     - Class: 114
-      Script: {instanceID: 6444}
+      Script: {instanceID: 6534}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -325,120 +327,124 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1766}
+      Script: {instanceID: 1798}
     - Class: 114
-      Script: {instanceID: 1772}
+      Script: {instanceID: 1804}
     - Class: 114
-      Script: {instanceID: 1774}
+      Script: {instanceID: 1806}
     - Class: 114
-      Script: {instanceID: 1776}
+      Script: {instanceID: 1808}
     - Class: 114
-      Script: {instanceID: 1782}
+      Script: {instanceID: 1814}
     - Class: 114
-      Script: {instanceID: 1910}
+      Script: {instanceID: 1950}
     - Class: 114
-      Script: {instanceID: 1982}
+      Script: {instanceID: 2022}
     - Class: 114
-      Script: {instanceID: 2106}
+      Script: {instanceID: 2146}
     - Class: 114
-      Script: {instanceID: 2288}
+      Script: {instanceID: 2334}
     - Class: 114
-      Script: {instanceID: 2444}
+      Script: {instanceID: 2490}
     - Class: 114
-      Script: {instanceID: 2538}
+      Script: {instanceID: 2584}
     - Class: 114
-      Script: {instanceID: 2734}
+      Script: {instanceID: 2602}
     - Class: 114
-      Script: {instanceID: 3214}
+      Script: {instanceID: 2782}
     - Class: 114
-      Script: {instanceID: 3282}
+      Script: {instanceID: 3270}
     - Class: 114
-      Script: {instanceID: 3336}
+      Script: {instanceID: 3338}
     - Class: 114
-      Script: {instanceID: 3356}
+      Script: {instanceID: 3392}
     - Class: 114
-      Script: {instanceID: 3386}
+      Script: {instanceID: 3412}
     - Class: 114
-      Script: {instanceID: 3388}
+      Script: {instanceID: 3442}
     - Class: 114
-      Script: {instanceID: 3418}
+      Script: {instanceID: 3444}
     - Class: 114
-      Script: {instanceID: 3524}
+      Script: {instanceID: 3474}
     - Class: 114
-      Script: {instanceID: 3628}
+      Script: {instanceID: 3586}
     - Class: 114
-      Script: {instanceID: 3912}
+      Script: {instanceID: 3690}
     - Class: 114
-      Script: {instanceID: 4006}
+      Script: {instanceID: 3974}
     - Class: 114
-      Script: {instanceID: 4118}
+      Script: {instanceID: 4068}
     - Class: 114
-      Script: {instanceID: 4276}
+      Script: {instanceID: 4180}
     - Class: 114
-      Script: {instanceID: 4368}
+      Script: {instanceID: 4340}
     - Class: 114
-      Script: {instanceID: 4788}
+      Script: {instanceID: 4432}
     - Class: 114
-      Script: {instanceID: 4792}
+      Script: {instanceID: 4856}
     - Class: 114
-      Script: {instanceID: 4794}
+      Script: {instanceID: 4860}
     - Class: 114
-      Script: {instanceID: 5046}
+      Script: {instanceID: 4862}
     - Class: 114
-      Script: {instanceID: 5060}
+      Script: {instanceID: 5122}
     - Class: 114
-      Script: {instanceID: 5104}
+      Script: {instanceID: 5138}
     - Class: 114
-      Script: {instanceID: 5110}
+      Script: {instanceID: 5182}
     - Class: 114
-      Script: {instanceID: 5296}
+      Script: {instanceID: 5188}
     - Class: 114
-      Script: {instanceID: 5298}
+      Script: {instanceID: 5374}
     - Class: 114
-      Script: {instanceID: 5316}
+      Script: {instanceID: 5376}
     - Class: 114
-      Script: {instanceID: 5554}
+      Script: {instanceID: 5396}
     - Class: 114
-      Script: {instanceID: 5668}
+      Script: {instanceID: 5634}
     - Class: 114
-      Script: {instanceID: 5788}
+      Script: {instanceID: 5750}
     - Class: 114
-      Script: {instanceID: 5794}
+      Script: {instanceID: 5870}
     - Class: 114
-      Script: {instanceID: 5860}
+      Script: {instanceID: 5876}
     - Class: 114
-      Script: {instanceID: 5866}
+      Script: {instanceID: 5942}
     - Class: 114
-      Script: {instanceID: 5956}
+      Script: {instanceID: 5948}
     - Class: 114
-      Script: {instanceID: 5992}
+      Script: {instanceID: 6038}
     - Class: 114
-      Script: {instanceID: 6032}
+      Script: {instanceID: 6074}
     - Class: 114
-      Script: {instanceID: 6106}
+      Script: {instanceID: 6122}
     - Class: 114
-      Script: {instanceID: 6114}
+      Script: {instanceID: 6196}
     - Class: 114
-      Script: {instanceID: 6214}
+      Script: {instanceID: 6204}
     - Class: 114
-      Script: {instanceID: 6354}
+      Script: {instanceID: 6304}
     - Class: 114
       Script: {instanceID: 6444}
     - Class: 114
-      Script: {instanceID: 6464}
+      Script: {instanceID: 6534}
     - Class: 114
-      Script: {instanceID: 6512}
+      Script: {instanceID: 6554}
     - Class: 114
-      Script: {instanceID: 7104}
+      Script: {instanceID: 6602}
     - Class: 114
-      Script: {instanceID: 7394}
+      Script: {instanceID: 7214}
     - Class: 114
-      Script: {instanceID: 7610}
+      Script: {instanceID: 7506}
+    - Class: 114
+      Script: {instanceID: 7722}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -548,10 +554,22 @@ ScriptsOnlyBuild:
     className: MainMenuButtonsHandler
   - hash:
       serializedVersion: 2
+      Hash: ce669872a2be11bc686ea22961d8a3bb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FixedJoystick
+  - hash:
+      serializedVersion: 2
       Hash: 6da05449502c54a7bf3cc65b493806ee
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Experimental.Rendering.Universal
     className: RenderObjects
+  - hash:
+      serializedVersion: 2
+      Hash: 9dac16f3efc511835ac976dfae55f580
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VariableJoystick
   - hash:
       serializedVersion: 2
       Hash: 800c50acba124432abb4cf0d47202e06
@@ -594,6 +612,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering.UI
     className: DebugUIHandlerGroup
+  - hash:
+      serializedVersion: 2
+      Hash: dafec6c2a8043c208510b9a6a84a6300
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: BugsnagUnity
+    className: BugsnagBehaviour
   - hash:
       serializedVersion: 2
       Hash: 31995eb8416877c9afd92b5d1b50df0d
@@ -696,6 +720,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 49d24ca59d3198cc1aa9c60ce37ce0a1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameSceneButtonsHandler
   - hash:
       serializedVersion: 2
       Hash: 69415240821be7986b27e72bf9609a30
@@ -878,6 +908,12 @@ ScriptsOnlyBuild:
     className: ChromaticAberration
   - hash:
       serializedVersion: 2
+      Hash: 528e9858840cb8370d93939fff6b42d9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: JoystickPlayerExample
+  - hash:
+      serializedVersion: 2
       Hash: 91c66736e3507bbd3c15a9b02abea21b
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Rendering.Universal
@@ -986,6 +1022,12 @@ ScriptsOnlyBuild:
     className: VariablesSaver
   - hash:
       serializedVersion: 2
+      Hash: 824e8d4cb47ffd88ddf959dbd4526585
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DynamicJoystick
+  - hash:
+      serializedVersion: 2
       Hash: 5ab533713adae59372fb3e10a585c186
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1038,6 +1080,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: ce669872a2be11bc686ea22961d8a3bb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Joystick
   - hash:
       serializedVersion: 2
       Hash: 7dbf450932234158be58ca2027563dcb
@@ -1170,6 +1218,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering.UI
     className: DebugUIHandlerIndirectFloatField
+  - hash:
+      serializedVersion: 2
+      Hash: 9e27f44bbf48228f203a37254d40f8ae
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: JoystickSetterExample
   - hash:
       serializedVersion: 2
       Hash: b7d58df3c6d92c60e3611c0a808aa0dc
@@ -1316,6 +1370,12 @@ ScriptsOnlyBuild:
     className: EventTrigger
   - hash:
       serializedVersion: 2
+      Hash: ce669872a2be11bc686ea22961d8a3bb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FloatingJoystick
+  - hash:
+      serializedVersion: 2
       Hash: a81d4c2c1cf3ad164d277d927a193679
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -1404,54 +1464,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: 49d24ca59d3198cc1aa9c60ce37ce0a1
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GameSceneButtonsHandler
-  - hash:
-      serializedVersion: 2
-      Hash: 824e8d4cb47ffd88ddf959dbd4526585
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DynamicJoystick
-  - hash:
-      serializedVersion: 2
-      Hash: ce669872a2be11bc686ea22961d8a3bb
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: FloatingJoystick
-  - hash:
-      serializedVersion: 2
-      Hash: 9dac16f3efc511835ac976dfae55f580
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: VariableJoystick
-  - hash:
-      serializedVersion: 2
-      Hash: ce669872a2be11bc686ea22961d8a3bb
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Joystick
-  - hash:
-      serializedVersion: 2
-      Hash: 528e9858840cb8370d93939fff6b42d9
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: JoystickPlayerExample
-  - hash:
-      serializedVersion: 2
-      Hash: 9e27f44bbf48228f203a37254d40f8ae
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: JoystickSetterExample
-  - hash:
-      serializedVersion: 2
-      Hash: ce669872a2be11bc686ea22961d8a3bb
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: FixedJoystick
   platform: 9
   scenePathNames:
   - Assets/_/Scenes/MainMenuScene.unity

@@ -8410,6 +8410,24 @@ struct BatchRendererGroup_t68C1EAC6F7158DC1C02C16D4E343397D5EC4574A_marshaled_co
 	Il2CppMethodPointer ___m_PerformCulling_1;
 };
 
+// UnityEngine.BatteryStatus
+struct BatteryStatus_t978839AA1C36943D10F509237B19677B71504C0C 
+{
+public:
+	// System.Int32 UnityEngine.BatteryStatus::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(BatteryStatus_t978839AA1C36943D10F509237B19677B71504C0C, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
 // System.Reflection.BindingFlags
 struct BindingFlags_tAAAB07D9AC588F0D55D844E51D7035E96DF94733 
 {
@@ -9891,6 +9909,24 @@ public:
 
 public:
 	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(SynchronisationStageFlags_tE1A9B2C3518C00778B5F7E76CD05328D1427959A, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
+// UnityEngine.SystemLanguage
+struct SystemLanguage_tF8A9C86102588DE9A5041719609C2693D283B3A6 
+{
+public:
+	// System.Int32 UnityEngine.SystemLanguage::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(SystemLanguage_tF8A9C86102588DE9A5041719609C2693D283B3A6, ___value___2)); }
 	inline int32_t get_value___2() const { return ___value___2; }
 	inline int32_t* get_address_of_value___2() { return &___value___2; }
 	inline void set_value___2(int32_t value)
@@ -14936,18 +14972,30 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool SupportedRenderingFeatures_g
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool SupportedRenderingFeatures_get_autoDefaultReflectionProbeBaking_mA5BAC3017ACBB356ADC09B9015457692FB761528_inline (SupportedRenderingFeatures_t751F1D338419E1CFAF4A3F7CE61B52075D72AF54 * __this, const RuntimeMethod* method);
 // System.Void System.Object::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405 (RuntimeObject * __this, const RuntimeMethod* method);
+// System.Single UnityEngine.SystemInfo::GetBatteryLevel()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SystemInfo_GetBatteryLevel_mC7AD536404709DBCBE392E60D627F5C789ABB064 (const RuntimeMethod* method);
+// UnityEngine.BatteryStatus UnityEngine.SystemInfo::GetBatteryStatus()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SystemInfo_GetBatteryStatus_mB9D79AD7FA05CA452714A2A468D1F804B4664BB5 (const RuntimeMethod* method);
 // UnityEngine.OperatingSystemFamily UnityEngine.SystemInfo::GetOperatingSystemFamily()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SystemInfo_GetOperatingSystemFamily_mA28F08DC50049D25B1C1FB0E8F5C6EF00C7FEFCD (const RuntimeMethod* method);
 // System.String UnityEngine.SystemInfo::GetProcessorType()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SystemInfo_GetProcessorType_mCE5AB6E00F496E308B5C8FC37E26B8A8EEEF4A75 (const RuntimeMethod* method);
+// System.Int32 UnityEngine.SystemInfo::GetPhysicalMemoryMB()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SystemInfo_GetPhysicalMemoryMB_m4131DA4696B7AC99F56545D91881E55D510E9659 (const RuntimeMethod* method);
+// System.String UnityEngine.SystemInfo::GetDeviceUniqueIdentifier()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SystemInfo_GetDeviceUniqueIdentifier_mEFC98563366CED1C69EDDC6D5608D6BA8A4FC753 (const RuntimeMethod* method);
 // UnityEngine.DeviceType UnityEngine.SystemInfo::GetDeviceType()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SystemInfo_GetDeviceType_m0FA185D60B7A50C01A3AFB22AAE47C585E0F6BAB (const RuntimeMethod* method);
+// System.Int32 UnityEngine.SystemInfo::GetGraphicsMemorySize()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SystemInfo_GetGraphicsMemorySize_mA3DC96C958BD9F685C3A9A112A22AC4CACE7A2B3 (const RuntimeMethod* method);
 // System.String UnityEngine.SystemInfo::GetGraphicsDeviceVendor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SystemInfo_GetGraphicsDeviceVendor_mCE52C892914AD6FC791F88DD7AE2ACE28E641863 (const RuntimeMethod* method);
 // UnityEngine.Rendering.GraphicsDeviceType UnityEngine.SystemInfo::GetGraphicsDeviceType()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SystemInfo_GetGraphicsDeviceType_m8E30DF86F5AE77EBB1752A55B183890C3ACA8443 (const RuntimeMethod* method);
 // System.Boolean UnityEngine.SystemInfo::GetGraphicsUVStartsAtTop()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SystemInfo_GetGraphicsUVStartsAtTop_m05A4A723EEB7FBCB3E55C3A417AA03AF0B021E4D (const RuntimeMethod* method);
+// System.String UnityEngine.SystemInfo::GetGraphicsDeviceVersion()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SystemInfo_GetGraphicsDeviceVersion_m0AB62B4AC54343A28B8CAA0AEE59B22E281F1D71 (const RuntimeMethod* method);
 // System.Int32 UnityEngine.SystemInfo::GetGraphicsShaderLevel()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SystemInfo_GetGraphicsShaderLevel_m5FA0FBC7F9E2EB33F845D4481BBD2E703FDC9774 (const RuntimeMethod* method);
 // System.Boolean UnityEngine.SystemInfo::HasHiddenSurfaceRemovalOnGPU()
@@ -20027,6 +20075,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SupportedRenderingFeatures__cctor_mCC9E6
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Single UnityEngine.SystemInfo::get_batteryLevel()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SystemInfo_get_batteryLevel_m630A753F505B1B642D97439908F01E5E3F972F93 (const RuntimeMethod* method)
+{
+	float V_0 = 0.0f;
+	{
+		float L_0;
+		L_0 = SystemInfo_GetBatteryLevel_mC7AD536404709DBCBE392E60D627F5C789ABB064(/*hidden argument*/NULL);
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+// UnityEngine.BatteryStatus UnityEngine.SystemInfo::get_batteryStatus()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SystemInfo_get_batteryStatus_mD6E9FA6A93D6D069E622A44B6DCBA5CC9E6E4F41 (const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0;
+		L_0 = SystemInfo_GetBatteryStatus_mB9D79AD7FA05CA452714A2A468D1F804B4664BB5(/*hidden argument*/NULL);
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		int32_t L_1 = V_0;
+		return L_1;
+	}
+}
 // UnityEngine.OperatingSystemFamily UnityEngine.SystemInfo::get_operatingSystemFamily()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SystemInfo_get_operatingSystemFamily_m797937E766B7FF87A5F1630263C49B814131DD95 (const RuntimeMethod* method)
 {
@@ -20061,6 +20143,40 @@ IL_0009:
 		return L_1;
 	}
 }
+// System.Int32 UnityEngine.SystemInfo::get_systemMemorySize()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SystemInfo_get_systemMemorySize_m40E0CFB6034F14C4FF249C0940CBEC3E7F167EF0 (const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0;
+		L_0 = SystemInfo_GetPhysicalMemoryMB_m4131DA4696B7AC99F56545D91881E55D510E9659(/*hidden argument*/NULL);
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		int32_t L_1 = V_0;
+		return L_1;
+	}
+}
+// System.String UnityEngine.SystemInfo::get_deviceUniqueIdentifier()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SystemInfo_get_deviceUniqueIdentifier_m12CA3C3D8C75E44FBFA73E2E34D9E743AF732B1E (const RuntimeMethod* method)
+{
+	String_t* V_0 = NULL;
+	{
+		String_t* L_0;
+		L_0 = SystemInfo_GetDeviceUniqueIdentifier_mEFC98563366CED1C69EDDC6D5608D6BA8A4FC753(/*hidden argument*/NULL);
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		String_t* L_1 = V_0;
+		return L_1;
+	}
+}
 // UnityEngine.DeviceType UnityEngine.SystemInfo::get_deviceType()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SystemInfo_get_deviceType_mC7A6628167ECFF848FE509510A6E3E2FA0820100 (const RuntimeMethod* method)
 {
@@ -20068,6 +20184,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SystemInfo_get_deviceType_mC7A6628167
 	{
 		int32_t L_0;
 		L_0 = SystemInfo_GetDeviceType_m0FA185D60B7A50C01A3AFB22AAE47C585E0F6BAB(/*hidden argument*/NULL);
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		int32_t L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Int32 UnityEngine.SystemInfo::get_graphicsMemorySize()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SystemInfo_get_graphicsMemorySize_m774717D305DC07B669D39485DEB4895500714E40 (const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0;
+		L_0 = SystemInfo_GetGraphicsMemorySize_mA3DC96C958BD9F685C3A9A112A22AC4CACE7A2B3(/*hidden argument*/NULL);
 		V_0 = L_0;
 		goto IL_0009;
 	}
@@ -20126,6 +20259,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SystemInfo_get_graphicsUVStartsAtTop_m8A
 IL_0009:
 	{
 		bool L_1 = V_0;
+		return L_1;
+	}
+}
+// System.String UnityEngine.SystemInfo::get_graphicsDeviceVersion()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SystemInfo_get_graphicsDeviceVersion_mA74AFB5D881DB29389D2BB05EB37DE60779BABD9 (const RuntimeMethod* method)
+{
+	String_t* V_0 = NULL;
+	{
+		String_t* L_0;
+		L_0 = SystemInfo_GetGraphicsDeviceVersion_m0AB62B4AC54343A28B8CAA0AEE59B22E281F1D71(/*hidden argument*/NULL);
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		String_t* L_1 = V_0;
 		return L_1;
 	}
 }
@@ -20467,6 +20617,26 @@ IL_0009:
 		return L_1;
 	}
 }
+// System.Single UnityEngine.SystemInfo::GetBatteryLevel()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SystemInfo_GetBatteryLevel_mC7AD536404709DBCBE392E60D627F5C789ABB064 (const RuntimeMethod* method)
+{
+	typedef float (*SystemInfo_GetBatteryLevel_mC7AD536404709DBCBE392E60D627F5C789ABB064_ftn) ();
+	static SystemInfo_GetBatteryLevel_mC7AD536404709DBCBE392E60D627F5C789ABB064_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (SystemInfo_GetBatteryLevel_mC7AD536404709DBCBE392E60D627F5C789ABB064_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.SystemInfo::GetBatteryLevel()");
+	float icallRetVal = _il2cpp_icall_func();
+	return icallRetVal;
+}
+// UnityEngine.BatteryStatus UnityEngine.SystemInfo::GetBatteryStatus()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SystemInfo_GetBatteryStatus_mB9D79AD7FA05CA452714A2A468D1F804B4664BB5 (const RuntimeMethod* method)
+{
+	typedef int32_t (*SystemInfo_GetBatteryStatus_mB9D79AD7FA05CA452714A2A468D1F804B4664BB5_ftn) ();
+	static SystemInfo_GetBatteryStatus_mB9D79AD7FA05CA452714A2A468D1F804B4664BB5_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (SystemInfo_GetBatteryStatus_mB9D79AD7FA05CA452714A2A468D1F804B4664BB5_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.SystemInfo::GetBatteryStatus()");
+	int32_t icallRetVal = _il2cpp_icall_func();
+	return icallRetVal;
+}
 // UnityEngine.OperatingSystemFamily UnityEngine.SystemInfo::GetOperatingSystemFamily()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SystemInfo_GetOperatingSystemFamily_mA28F08DC50049D25B1C1FB0E8F5C6EF00C7FEFCD (const RuntimeMethod* method)
 {
@@ -20487,6 +20657,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SystemInfo_GetProcessorType_mCE5AB6
 	String_t* icallRetVal = _il2cpp_icall_func();
 	return icallRetVal;
 }
+// System.Int32 UnityEngine.SystemInfo::GetPhysicalMemoryMB()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SystemInfo_GetPhysicalMemoryMB_m4131DA4696B7AC99F56545D91881E55D510E9659 (const RuntimeMethod* method)
+{
+	typedef int32_t (*SystemInfo_GetPhysicalMemoryMB_m4131DA4696B7AC99F56545D91881E55D510E9659_ftn) ();
+	static SystemInfo_GetPhysicalMemoryMB_m4131DA4696B7AC99F56545D91881E55D510E9659_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (SystemInfo_GetPhysicalMemoryMB_m4131DA4696B7AC99F56545D91881E55D510E9659_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.SystemInfo::GetPhysicalMemoryMB()");
+	int32_t icallRetVal = _il2cpp_icall_func();
+	return icallRetVal;
+}
+// System.String UnityEngine.SystemInfo::GetDeviceUniqueIdentifier()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SystemInfo_GetDeviceUniqueIdentifier_mEFC98563366CED1C69EDDC6D5608D6BA8A4FC753 (const RuntimeMethod* method)
+{
+	typedef String_t* (*SystemInfo_GetDeviceUniqueIdentifier_mEFC98563366CED1C69EDDC6D5608D6BA8A4FC753_ftn) ();
+	static SystemInfo_GetDeviceUniqueIdentifier_mEFC98563366CED1C69EDDC6D5608D6BA8A4FC753_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (SystemInfo_GetDeviceUniqueIdentifier_mEFC98563366CED1C69EDDC6D5608D6BA8A4FC753_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.SystemInfo::GetDeviceUniqueIdentifier()");
+	String_t* icallRetVal = _il2cpp_icall_func();
+	return icallRetVal;
+}
 // UnityEngine.DeviceType UnityEngine.SystemInfo::GetDeviceType()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SystemInfo_GetDeviceType_m0FA185D60B7A50C01A3AFB22AAE47C585E0F6BAB (const RuntimeMethod* method)
 {
@@ -20494,6 +20684,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SystemInfo_GetDeviceType_m0FA185D60B7
 	static SystemInfo_GetDeviceType_m0FA185D60B7A50C01A3AFB22AAE47C585E0F6BAB_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (SystemInfo_GetDeviceType_m0FA185D60B7A50C01A3AFB22AAE47C585E0F6BAB_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.SystemInfo::GetDeviceType()");
+	int32_t icallRetVal = _il2cpp_icall_func();
+	return icallRetVal;
+}
+// System.Int32 UnityEngine.SystemInfo::GetGraphicsMemorySize()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SystemInfo_GetGraphicsMemorySize_mA3DC96C958BD9F685C3A9A112A22AC4CACE7A2B3 (const RuntimeMethod* method)
+{
+	typedef int32_t (*SystemInfo_GetGraphicsMemorySize_mA3DC96C958BD9F685C3A9A112A22AC4CACE7A2B3_ftn) ();
+	static SystemInfo_GetGraphicsMemorySize_mA3DC96C958BD9F685C3A9A112A22AC4CACE7A2B3_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (SystemInfo_GetGraphicsMemorySize_mA3DC96C958BD9F685C3A9A112A22AC4CACE7A2B3_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.SystemInfo::GetGraphicsMemorySize()");
 	int32_t icallRetVal = _il2cpp_icall_func();
 	return icallRetVal;
 }
@@ -20525,6 +20725,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SystemInfo_GetGraphicsUVStartsAtTop_m05A
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (SystemInfo_GetGraphicsUVStartsAtTop_m05A4A723EEB7FBCB3E55C3A417AA03AF0B021E4D_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.SystemInfo::GetGraphicsUVStartsAtTop()");
 	bool icallRetVal = _il2cpp_icall_func();
+	return icallRetVal;
+}
+// System.String UnityEngine.SystemInfo::GetGraphicsDeviceVersion()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SystemInfo_GetGraphicsDeviceVersion_m0AB62B4AC54343A28B8CAA0AEE59B22E281F1D71 (const RuntimeMethod* method)
+{
+	typedef String_t* (*SystemInfo_GetGraphicsDeviceVersion_m0AB62B4AC54343A28B8CAA0AEE59B22E281F1D71_ftn) ();
+	static SystemInfo_GetGraphicsDeviceVersion_m0AB62B4AC54343A28B8CAA0AEE59B22E281F1D71_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (SystemInfo_GetGraphicsDeviceVersion_m0AB62B4AC54343A28B8CAA0AEE59B22E281F1D71_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.SystemInfo::GetGraphicsDeviceVersion()");
+	String_t* icallRetVal = _il2cpp_icall_func();
 	return icallRetVal;
 }
 // System.Int32 UnityEngine.SystemInfo::GetGraphicsShaderLevel()
@@ -20716,6 +20926,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SystemInfo_GetRenderTextureSupportedM
 	int32_t icallRetVal = _il2cpp_icall_func(___desc0);
 	return icallRetVal;
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -20927,7 +21145,7 @@ IL_0075:
 		int32_t L_30 = V_1;
 		NullCheck(L_26);
 		String_t* L_31;
-		L_31 = VirtFuncInvoker3< String_t*, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t >::Invoke(32 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_26, L_27, L_28, ((int32_t)il2cpp_codegen_subtract((int32_t)((int32_t)((int32_t)(((RuntimeArray*)L_29)->max_length))), (int32_t)L_30)));
+		L_31 = VirtFuncInvoker3< String_t*, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t >::Invoke(33 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_26, L_27, L_28, ((int32_t)il2cpp_codegen_subtract((int32_t)((int32_t)((int32_t)(((RuntimeArray*)L_29)->max_length))), (int32_t)L_30)));
 		V_11 = L_31;
 		goto IL_00cc;
 	} // end try (depth: 1)
@@ -20985,7 +21203,7 @@ IL_00a6:
 		int32_t L_41 = V_1;
 		NullCheck(L_37);
 		String_t* L_42;
-		L_42 = VirtFuncInvoker3< String_t*, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t >::Invoke(32 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_37, L_38, L_39, ((int32_t)il2cpp_codegen_subtract((int32_t)((int32_t)((int32_t)(((RuntimeArray*)L_40)->max_length))), (int32_t)L_41)));
+		L_42 = VirtFuncInvoker3< String_t*, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t >::Invoke(33 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_37, L_38, L_39, ((int32_t)il2cpp_codegen_subtract((int32_t)((int32_t)((int32_t)(((RuntimeArray*)L_40)->max_length))), (int32_t)L_41)));
 		V_11 = L_42;
 		goto IL_00cc;
 	}
@@ -27222,7 +27440,7 @@ IL_0039:
 		Type_t * L_12 = ___t0;
 		NullCheck(L_12);
 		FieldInfoU5BU5D_tD84513FCA07C63AAFE671A5B39E3ADD6E903938E* L_13;
-		L_13 = VirtFuncInvoker1< FieldInfoU5BU5D_tD84513FCA07C63AAFE671A5B39E3ADD6E903938E*, int32_t >::Invoke(43 /* System.Reflection.FieldInfo[] System.Type::GetFields(System.Reflection.BindingFlags) */, L_12, ((int32_t)52));
+		L_13 = VirtFuncInvoker1< FieldInfoU5BU5D_tD84513FCA07C63AAFE671A5B39E3ADD6E903938E*, int32_t >::Invoke(44 /* System.Reflection.FieldInfo[] System.Type::GetFields(System.Reflection.BindingFlags) */, L_12, ((int32_t)52));
 		V_4 = L_13;
 		V_5 = 0;
 		goto IL_0098;
@@ -27308,7 +27526,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnsafeUtility_IsArrayBlittable_m1F4CE4F2
 		L_1 = Object_GetType_m571FE8360C10B98C23AAF1F066D92C08CC94F45B(L_0, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		Type_t * L_2;
-		L_2 = VirtFuncInvoker0< Type_t * >::Invoke(98 /* System.Type System.Type::GetElementType() */, L_1);
+		L_2 = VirtFuncInvoker0< Type_t * >::Invoke(99 /* System.Type System.Type::GetElementType() */, L_1);
 		bool L_3;
 		L_3 = UnsafeUtility_IsBlittableValueType_mC548D28E3E1FF39148C8A2D745A30AB6122485B7(L_2, /*hidden argument*/NULL);
 		V_0 = L_3;
@@ -27333,7 +27551,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UnsafeUtility_GetReasonForArrayNonB
 		L_1 = Object_GetType_m571FE8360C10B98C23AAF1F066D92C08CC94F45B(L_0, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		Type_t * L_2;
-		L_2 = VirtFuncInvoker0< Type_t * >::Invoke(98 /* System.Type System.Type::GetElementType() */, L_1);
+		L_2 = VirtFuncInvoker0< Type_t * >::Invoke(99 /* System.Type System.Type::GetElementType() */, L_1);
 		V_0 = L_2;
 		Type_t * L_3 = V_0;
 		Type_t * L_4 = V_0;
@@ -36945,7 +37163,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncodingUtility__cctor_m6BADEB7670563CC4
 		L_0 = Encoding_get_UTF8_mC877FB3137BBD566AEE7B15F9BF61DC4EF8F5E5E(/*hidden argument*/NULL);
 		NullCheck(L_0);
 		int32_t L_1;
-		L_1 = VirtFuncInvoker0< int32_t >::Invoke(26 /* System.Int32 System.Text.Encoding::get_CodePage() */, L_0);
+		L_1 = VirtFuncInvoker0< int32_t >::Invoke(27 /* System.Int32 System.Text.Encoding::get_CodePage() */, L_0);
 		EncoderReplacementFallback_t61E36A507D7FA8034B49F86DBE560EC77A6A8418 * L_2 = (EncoderReplacementFallback_t61E36A507D7FA8034B49F86DBE560EC77A6A8418 *)il2cpp_codegen_object_new(EncoderReplacementFallback_t61E36A507D7FA8034B49F86DBE560EC77A6A8418_il2cpp_TypeInfo_var);
 		EncoderReplacementFallback__ctor_m07299910DC3D3F6B9F8F37A4ADD40A500F97D1D4(L_2, _stringLiteralB8F710F417E2D96E747683BF53A8CA9BB6B9648C, /*hidden argument*/NULL);
 		DecoderReplacementFallback_t8DA345EC4EF3A35A2667365F691EE69408A62130 * L_3 = (DecoderReplacementFallback_t8DA345EC4EF3A35A2667365F691EE69408A62130 *)il2cpp_codegen_object_new(DecoderReplacementFallback_t8DA345EC4EF3A35A2667365F691EE69408A62130_il2cpp_TypeInfo_var);

@@ -30315,7 +30315,7 @@ IL_00bb:
 		__this->set_stdout_15(L_27);
 		CStreamWriter_tBC3C3F9F3E738D2FF586EF7A680A077D5AA3D27A * L_28 = __this->get_stdout_15();
 		NullCheck(L_28);
-		VirtActionInvoker1< bool >::Invoke(23 /* System.Void System.IO.StreamWriter::set_AutoFlush(System.Boolean) */, L_28, (bool)1);
+		VirtActionInvoker1< bool >::Invoke(24 /* System.Void System.IO.StreamWriter::set_AutoFlush(System.Boolean) */, L_28, (bool)1);
 		return;
 	}
 
@@ -34443,7 +34443,7 @@ IL_000a:
 		int32_t L_10 = V_0;
 		NullCheck(L_7);
 		String_t* L_11;
-		L_11 = VirtFuncInvoker3< String_t*, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t >::Invoke(32 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_7, L_8, L_9, L_10);
+		L_11 = VirtFuncInvoker3< String_t*, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t >::Invoke(33 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_7, L_8, L_9, L_10);
 		return L_11;
 	}
 }

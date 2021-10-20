@@ -18550,6 +18550,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OperatingSystem_get_ServicePack_mCA
 		return L_0;
 	}
 }
+// System.String System.OperatingSystem::get_VersionString()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OperatingSystem_get_VersionString_m9EF13019907CF2CBE2D7B3CACDA917CD8C941D35 (OperatingSystem_tBB911FE4834884FD79AF78F2B07C19B938491463 * __this, const RuntimeMethod* method)
+{
+	{
+		String_t* L_0;
+		L_0 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, __this);
+		return L_0;
+	}
+}
 // System.Object System.OperatingSystem::Clone()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * OperatingSystem_Clone_mB35611723296B5F2066BBB452CEBF7A4C66A716D (OperatingSystem_tBB911FE4834884FD79AF78F2B07C19B938491463 * __this, const RuntimeMethod* method)
 {
@@ -19392,7 +19401,7 @@ IL_0009:
 		Type_t * L_1 = V_0;
 		NullCheck(L_1);
 		Type_t * L_2;
-		L_2 = VirtFuncInvoker0< Type_t * >::Invoke(98 /* System.Type System.Type::GetElementType() */, L_1);
+		L_2 = VirtFuncInvoker0< Type_t * >::Invoke(99 /* System.Type System.Type::GetElementType() */, L_1);
 		V_0 = L_2;
 	}
 
@@ -19554,7 +19563,7 @@ IL_0014:
 		bool L_9 = ___serialization3;
 		NullCheck(L_8);
 		String_t* L_10;
-		L_10 = VirtFuncInvoker1< String_t*, bool >::Invoke(112 /* System.String System.Type::FormatTypeName(System.Boolean) */, L_8, L_9);
+		L_10 = VirtFuncInvoker1< String_t*, bool >::Invoke(113 /* System.String System.Type::FormatTypeName(System.Boolean) */, L_8, L_9);
 		V_1 = L_10;
 		NullCheck(L_8);
 		bool L_11;
@@ -32335,7 +32344,7 @@ IL_0035:
 		Type_t * L_11 = ___objectType0;
 		NullCheck(L_10);
 		bool L_12;
-		L_12 = VirtFuncInvoker1< bool, Type_t * >::Invoke(110 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_10, L_11);
+		L_12 = VirtFuncInvoker1< bool, Type_t * >::Invoke(111 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_10, L_11);
 		if (!L_12)
 		{
 			goto IL_0051;
@@ -35246,7 +35255,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C
 		L_7 = InterfaceFuncInvoker0< RuntimeObject * >::Invoke(2 /* System.Object System.Runtime.Remoting.Messaging.IMethodReturnMessage::get_ReturnValue() */, IMethodReturnMessage_t4B84F631CB7E599CD495048748DE5E21B62390B0_il2cpp_TypeInfo_var, L_6);
 		NullCheck(L_5);
 		bool L_8;
-		L_8 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(109 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_5, L_7);
+		L_8 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(110 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_5, L_7);
 		if (L_8)
 		{
 			goto IL_0032;
@@ -35455,11 +35464,11 @@ IL_0108:
 		L_60 = VirtFuncInvoker0< Type_t * >::Invoke(7 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, L_59);
 		NullCheck(L_60);
 		Type_t * L_61;
-		L_61 = VirtFuncInvoker0< Type_t * >::Invoke(98 /* System.Type System.Type::GetElementType() */, L_60);
+		L_61 = VirtFuncInvoker0< Type_t * >::Invoke(99 /* System.Type System.Type::GetElementType() */, L_60);
 		RuntimeObject * L_62 = V_9;
 		NullCheck(L_61);
 		bool L_63;
-		L_63 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(109 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_61, L_62);
+		L_63 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(110 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_61, L_62);
 		if (L_63)
 		{
 			goto IL_013f;

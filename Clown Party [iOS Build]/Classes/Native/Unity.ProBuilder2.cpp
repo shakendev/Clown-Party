@@ -12615,7 +12615,7 @@ IL_0061:
 		StreamWriter_t3E267B7F3C9522AF936C26ABF158398BB779FAF6 * L_20 = V_2;
 		String_t* L_21 = ___message0;
 		NullCheck(L_20);
-		VirtActionInvoker1< String_t* >::Invoke(20 /* System.Void System.IO.TextWriter::WriteLine(System.String) */, L_20, L_21);
+		VirtActionInvoker1< String_t* >::Invoke(21 /* System.Void System.IO.TextWriter::WriteLine(System.String) */, L_20, L_21);
 		// }
 		IL2CPP_LEAVE(0x8E, FINALLY_006a);
 	} // end try (depth: 1)
@@ -12669,7 +12669,7 @@ IL_007b:
 		StreamWriter_t3E267B7F3C9522AF936C26ABF158398BB779FAF6 * L_26 = V_3;
 		String_t* L_27 = ___message0;
 		NullCheck(L_26);
-		VirtActionInvoker1< String_t* >::Invoke(20 /* System.Void System.IO.TextWriter::WriteLine(System.String) */, L_26, L_27);
+		VirtActionInvoker1< String_t* >::Invoke(21 /* System.Void System.IO.TextWriter::WriteLine(System.String) */, L_26, L_27);
 		// }
 		IL2CPP_LEAVE(0x8E, FINALLY_0084);
 	} // end try (depth: 1)

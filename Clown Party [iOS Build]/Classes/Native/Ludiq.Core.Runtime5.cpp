@@ -34761,7 +34761,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3C_cctorU3Eb__0_0_m97915DDA1CAD
 		Type_t * L_2 = ___type0;
 		NullCheck(L_2);
 		bool L_3;
-		L_3 = VirtFuncInvoker0< bool >::Invoke(74 /* System.Boolean System.Type::get_IsGenericType() */, L_2);
+		L_3 = VirtFuncInvoker0< bool >::Invoke(75 /* System.Boolean System.Type::get_IsGenericType() */, L_2);
 		if (L_3)
 		{
 			goto IL_001a;
@@ -34947,7 +34947,7 @@ IL_003b:
 		Type_t * L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
 		NullCheck(L_19);
 		bool L_24;
-		L_24 = VirtFuncInvoker1< bool, Type_t * >::Invoke(110 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_19, L_23);
+		L_24 = VirtFuncInvoker1< bool, Type_t * >::Invoke(111 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_19, L_23);
 		if (L_24)
 		{
 			goto IL_0054;
@@ -40070,7 +40070,7 @@ IL_000d:
 		Namespace_tEEBB955735AD79F60EE957AC2A96CC4DA791AAC2 ** L_4 = ___value1;
 		NullCheck(L_2);
 		bool L_5;
-		L_5 = InterfaceFuncInvoker2< bool, String_t*, Namespace_tEEBB955735AD79F60EE957AC2A96CC4DA791AAC2 ** >::Invoke(3 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,Ludiq.Namespace>::TryGetValue(!0,!1&) */, IDictionary_2_t7BB47278A3656E58F10A3954609B9F97CA1E1618_il2cpp_TypeInfo_var, L_2, L_3, (Namespace_tEEBB955735AD79F60EE957AC2A96CC4DA791AAC2 **)L_4);
+		L_5 = InterfaceFuncInvoker2< bool, String_t*, Namespace_tEEBB955735AD79F60EE957AC2A96CC4DA791AAC2 ** >::Invoke(7 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,Ludiq.Namespace>::TryGetValue(!0,!1&) */, IDictionary_2_t7BB47278A3656E58F10A3954609B9F97CA1E1618_il2cpp_TypeInfo_var, L_2, L_3, (Namespace_tEEBB955735AD79F60EE957AC2A96CC4DA791AAC2 **)L_4);
 		return L_5;
 	}
 }
@@ -44847,7 +44847,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CGetListElementTypeU3Eb__23_0_
 		Type_t * L_0 = ___i0;
 		NullCheck(L_0);
 		bool L_1;
-		L_1 = VirtFuncInvoker0< bool >::Invoke(74 /* System.Boolean System.Type::get_IsGenericType() */, L_0);
+		L_1 = VirtFuncInvoker0< bool >::Invoke(75 /* System.Boolean System.Type::get_IsGenericType() */, L_0);
 		if (!L_1)
 		{
 			goto IL_001e;
@@ -44857,7 +44857,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CGetListElementTypeU3Eb__23_0_
 		Type_t * L_2 = ___i0;
 		NullCheck(L_2);
 		Type_t * L_3;
-		L_3 = VirtFuncInvoker0< Type_t * >::Invoke(100 /* System.Type System.Type::GetGenericTypeDefinition() */, L_2);
+		L_3 = VirtFuncInvoker0< Type_t * >::Invoke(101 /* System.Type System.Type::GetGenericTypeDefinition() */, L_2);
 		RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  L_4 = { reinterpret_cast<intptr_t> (IList_1_tCFBEF0BE66D2411D5AEA86FDF1C1E71F013AA724_0_0_0_var) };
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 		Type_t * L_5;
@@ -44886,7 +44886,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CGetEnumerableElementTypeU3Eb_
 		Type_t * L_0 = ___i0;
 		NullCheck(L_0);
 		bool L_1;
-		L_1 = VirtFuncInvoker0< bool >::Invoke(74 /* System.Boolean System.Type::get_IsGenericType() */, L_0);
+		L_1 = VirtFuncInvoker0< bool >::Invoke(75 /* System.Boolean System.Type::get_IsGenericType() */, L_0);
 		if (!L_1)
 		{
 			goto IL_001e;
@@ -44896,7 +44896,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CGetEnumerableElementTypeU3Eb_
 		Type_t * L_2 = ___i0;
 		NullCheck(L_2);
 		Type_t * L_3;
-		L_3 = VirtFuncInvoker0< Type_t * >::Invoke(100 /* System.Type System.Type::GetGenericTypeDefinition() */, L_2);
+		L_3 = VirtFuncInvoker0< Type_t * >::Invoke(101 /* System.Type System.Type::GetGenericTypeDefinition() */, L_2);
 		RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  L_4 = { reinterpret_cast<intptr_t> (IEnumerable_1_t2DA210D3B033E1BEBFC81C153FA1C67749C6D264_0_0_0_var) };
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 		Type_t * L_5;
@@ -44925,7 +44925,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CGetDictionaryItemTypeU3Eb__25
 		Type_t * L_0 = ___i0;
 		NullCheck(L_0);
 		bool L_1;
-		L_1 = VirtFuncInvoker0< bool >::Invoke(74 /* System.Boolean System.Type::get_IsGenericType() */, L_0);
+		L_1 = VirtFuncInvoker0< bool >::Invoke(75 /* System.Boolean System.Type::get_IsGenericType() */, L_0);
 		if (!L_1)
 		{
 			goto IL_001e;
@@ -44935,7 +44935,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CGetDictionaryItemTypeU3Eb__25
 		Type_t * L_2 = ___i0;
 		NullCheck(L_2);
 		Type_t * L_3;
-		L_3 = VirtFuncInvoker0< Type_t * >::Invoke(100 /* System.Type System.Type::GetGenericTypeDefinition() */, L_2);
+		L_3 = VirtFuncInvoker0< Type_t * >::Invoke(101 /* System.Type System.Type::GetGenericTypeDefinition() */, L_2);
 		RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  L_4 = { reinterpret_cast<intptr_t> (IDictionary_2_t2C2074B0821BAD300B43C061B5CED76258A70C1E_0_0_0_var) };
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 		Type_t * L_5;
@@ -46634,7 +46634,7 @@ IL_0020:
 		Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71 * L_7 = V_1;
 		NullCheck(L_6);
 		bool L_8;
-		L_8 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(109 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_6, L_7);
+		L_8 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(110 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_6, L_7);
 		if (!L_8)
 		{
 			goto IL_0057;
